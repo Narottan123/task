@@ -106,6 +106,12 @@
 .overlay-text ul li a:hover {
   text-decoration: underline;
 }
+/* Responsive styling for screens up to 768px width */
+@media (max-width: 768px) {
+  .overlay-text {
+    padding: 10px;
+  }
+}
 
 
   .projects-container {
