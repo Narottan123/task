@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.navbar{
+    background-color: #fff !important;
+}
+.navbar-brand{
+    font-size: 1.9rem !important;
+    color: #565356 !important;
+}
+.navbar a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.navbar a:hover{
+    color: #3498db;
+}
+.navbar-brand img{
+    width: 90px;
+    height: 70px;
+}
+.menu-active{
+    font-weight: bold;
+    border-bottom: 1px solid #565387;
+}
+.img-class{
+    position: relative;
+  text-align: center;
+  color: #222234;
+}
+.img-class img{
+    width: 100vw;
+    height: 100vh;
+}
+.text-center{
+    position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* About.css */
+
+.about-section {
+  position: relative; /* Ensure the container is positioned */
+}
+
+.img-class {
+  position: relative; /* Ensure the image container is positioned */
+}
+
+.overlay-text {
+  position: absolute; /* Position the overlay text absolutely */
+  top: 50%; /* Position vertically at 50% from the top */
+  left: 50%; /* Position horizontally at 50% from the left */
+  transform: translate(-50%, -50%); /* Center the text */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding around the text */
+  border-radius: 8px; /* Rounded corners */
+  width: 80%; /* Adjust the width as needed */
+  max-width: 600px; /* Limit the maximum width */
+}
+
+.overlay-text h2 {
+  margin-top: 0; /* Remove default margin from heading */
+  font-size: 24px; /* Heading font size */
+}
+
+.overlay-text p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.overlay-text strong {
+  color: #ff6600;
+}
+
+.overlay-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.overlay-text li {
+  margin: 5px 0;
+}
+
+.overlay-text ul li::before {
+  content: "\2022"; /* Unicode bullet point character */
+  color: #ff6600;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.overlay-text ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.overlay-text ul li a:hover {
+  text-decoration: underline;
+}
+
+
+  .projects-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+.projects-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .projects-list {
+    list-style: none;
+    padding: 0;
+  }
+  .project-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .project-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 16px;
+  }
+  .project-technologies {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .project-year {
+    font-size: 14px;
+    color: #888;
+  }
+
+  /* contact.css */
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+  
+ 
+  
+  
+  
+  
+
+  
